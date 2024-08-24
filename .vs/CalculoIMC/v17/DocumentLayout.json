@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\joaol\\OneDrive\\\u00C1rea de Trabalho\\JO\u00C3O LUIZ\\Programa\u00E7\u00E3o\\CalculoIMC\\",
+  "WorkspaceRootPath": "C:\\Users\\joaol\\OneDrive\\\u00C1rea de Trabalho\\JO\u00C3O LUIZ\\Programa\u00E7\u00E3o\\Projetos\\CalculoIMC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5C7139E-A690-41A8-97CC-FB54934C2B72}|CalculoIMC\\CalculoIMC.csproj|c:\\users\\joaol\\onedrive\\\u00E1rea de trabalho\\jo\u00E3o luiz\\programa\u00E7\u00E3o\\calculoimc\\calculoimc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5C7139E-A690-41A8-97CC-FB54934C2B72}|CalculoIMC\\CalculoIMC.csproj|c:\\users\\joaol\\onedrive\\\u00E1rea de trabalho\\jo\u00E3o luiz\\programa\u00E7\u00E3o\\projetos\\calculoimc\\calculoimc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5C7139E-A690-41A8-97CC-FB54934C2B72}|CalculoIMC\\CalculoIMC.csproj|solutionrelative:calculoimc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\joaol\\OneDrive\\\u00C1rea de Trabalho\\JO\u00C3O LUIZ\\Programa\u00E7\u00E3o\\CalculoIMC\\CalculoIMC\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\joaol\\OneDrive\\\u00C1rea de Trabalho\\JO\u00C3O LUIZ\\Programa\u00E7\u00E3o\\Projetos\\CalculoIMC\\CalculoIMC\\Program.cs",
               "RelativeDocumentMoniker": "CalculoIMC\\Program.cs",
-              "ToolTip": "C:\\Users\\joaol\\OneDrive\\\u00C1rea de Trabalho\\JO\u00C3O LUIZ\\Programa\u00E7\u00E3o\\CalculoIMC\\CalculoIMC\\Program.cs",
+              "ToolTip": "C:\\Users\\joaol\\OneDrive\\\u00C1rea de Trabalho\\JO\u00C3O LUIZ\\Programa\u00E7\u00E3o\\Projetos\\CalculoIMC\\CalculoIMC\\Program.cs",
               "RelativeToolTip": "CalculoIMC\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAABNAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T03:58:45.441Z",
               "EditorCaption": ""

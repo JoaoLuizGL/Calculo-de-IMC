@@ -1,51 +1,56 @@
-﻿int peso;
-float altura, resultado, meta = 0;
+﻿float peso, altura, imc, metaIMC, metaPeso;
+metaIMC = metaPeso = 0;
 string estado;
 
 Console.Write("Insira o peso em kgs: ");
-peso = int.Parse(Console.ReadLine());
+peso = float.Parse(Console.ReadLine());
 Console.Write("Insira a altura em metros: ");
 altura = float.Parse(Console.ReadLine());
 
-resultado = peso / (float)(Math.Pow(altura, 2));
-Console.WriteLine("Seu IMC é: {0}", resultado.ToString("F2"));
+imc = peso / (float)(Math.Pow(altura, 2));
+Console.WriteLine("Seu IMC é: {0}", imc.ToString("F2"));
 
-if (resultado < 18.5)
+if (imc < 18.5)
 {
     estado = "Magreza";
-    meta = (float)18.5 - resultado;
+    metaIMC = (float)18.5 - imc;
+    metaPeso = (imc * (float)Math.Pow(altura, 2)) - peso;
 }
 else
 {
-    if (resultado < 24.9)
+    if (imc < 24.91)
     {
         estado = "Normal";
     }
     else
     {
-        if (resultado < 29.9)
+        if (imc < 29.91)
         {
             estado = "Sobrepeso";
-            meta = resultado - (float)24.9;
+            metaIMC = imc - (float)24.9;
+            metaPeso = peso - (float)(24.9 * Math.Pow(altura, 2));
         }
         else
         {
-            if (resultado < 39.9)
+            if (imc < 39.91)
             {
                 estado = "Obesidade";
-                meta = resultado - (float)24.9;
+                metaIMC = imc - (float)24.9;
+                metaPeso = peso - (float)(24.9 * Math.Pow(altura, 2));
             }
             else
             {
                 estado = "Obesidade Grave";
-                meta = resultado - (float)24.9;
+                metaIMC = imc - (float)24.9;
+                metaPeso = peso - (float)(24.9 * Math.Pow(altura, 2));
             }
         }
     }
 }
 Console.WriteLine("Seu estado é: " + estado);
-if (meta != 0)
+if (metaIMC != 0)
 {
-    Console.WriteLine("Seu IMC precisa melhorar em {0} para a classificação Normal", meta.ToString("F2"));
+    Console.WriteLine("Seu IMC precisa melhorar em {0} para a classificação Normal", metaIMC.ToString("F2"));
+    Console.WriteLine("Seu Peso precisa melhorar em {0} para a classificação Normal", metaPeso.ToString("F2"));
 }
 
